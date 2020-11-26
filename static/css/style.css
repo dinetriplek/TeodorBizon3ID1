@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+}
+
+.nav {
+  height: 75px;
+  background-color: slateblue;
+}
+
+.adminnav {
+  height: 50px;
+  background-color: gold;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: lightgray;
+  font-family: sans-serif;
+  font-size: 10em;
+}
+
+a {
+  line-height: 75px;
+  font-family: sans-serif;
+  color: white;
+  margin: 10px;
+  font-size: 2em;
+}
+
+a.adminlink {
+  line-height: 50px;
+  color: black;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+input {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+input[type="text"] {
+  width: 200px;
+  font-size: 30px;
+}
+input[type="password"] {
+  width: 200px;
+  font-size: 30px;
+}
+
+select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  font-size: 25px;
+  width: 200px;
+  vertical-align: middle;
+}
+
+input[type="radio"] {
+  margin-right: 20px;
+}
+input[type="submit"] {
+  height: 50px;
+  width: 120px;
+  font-size: 30px;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 25px;
+  vertical-align: middle;
+}
+form {
+  position: absolute;
+  text-align: left;
+  right: 45vw;
+}
+
+option {
+  font-size: 20px;
+}
